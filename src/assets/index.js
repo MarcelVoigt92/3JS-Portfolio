@@ -25,12 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import dci from "./company/DCI.png";
+import hcl from "./company/HCL.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  hcl,
+  dci,
   logo,
   backend,
   creator,
