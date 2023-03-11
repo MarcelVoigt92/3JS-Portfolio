@@ -1,4 +1,7 @@
 import {
+  weather,
+  discord,
+  hoobank,
   hcl,
   dci,
   mobile,
@@ -16,9 +19,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -113,7 +113,7 @@ const experiences = [
     company_name: "HCL Technologies Germany GmbH",
     icon: hcl,
     iconBg: "#E6DEDD",
-    date: "Nov 2019 - Jan 2022",
+    date: "Nov 2019 - Feb 2022",
     points: [
       "Provide technical assistance and support to end-users for software, hardware, and network issues.",
       "Troubleshoot and resolve technical problems through phone, email, or in-person communication.",
@@ -165,58 +165,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Discord Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This Discord clone built with React and Firebase offers real-time chat, customizable text channels and servers, and secure registration and login. It's an intuitive and seamless communication platform.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: discord,
+    source_code_link: "https://github.com/MarcelVoigt92/discord-clone",
   },
   {
-    name: "Job IT",
+    name: "Hoobank",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Welcome to Hoobank, the one-stop-shop for all your banking needs! Our mission is to provide our customers with a seamless and hassle-free banking experience, no matter where they are in the world.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hoobank,
+    source_code_link: "https://github.com/MarcelVoigt92/project_Hoobank",
   },
   {
-    name: "Trip Guide",
+    name: "Weather App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Introducing our brand new weather app built with React and powered by the OpenWeather API! With our app, you can easily check the weather conditions and forecast for any location in the wor",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "open weather API",
         color: "green-text-gradient",
       },
       {
@@ -224,8 +224,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/MarcelVoigt92/React-Weather-App",
   },
 ];
 

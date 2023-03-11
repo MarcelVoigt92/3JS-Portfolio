@@ -31,8 +31,13 @@ import hcl from "./company/HCL.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import discord from "./discord.png";
+import hoobank from "./hoobank.png";
+import weather from "./weather.png";
 export {
+  weather,
+  discord,
+  hoobank,
   hcl,
   dci,
   logo,
